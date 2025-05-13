@@ -1,24 +1,32 @@
 # marnaPY
-Analyse des marnages de réservoirs EPANET.
 
-Basé sur du code Python propriétaire de SUEZ.
-(Ganessa, MultiPI, etc.)
+Analysis of EPANET reservoir level fluctuations.
 
-## Project structure
+Based on proprietary Python code from SUEZ (Ganessa, MultiPI, etc.).
+
+## Project Structure
+
+```
 marnaPY/
 ├── src/           # Python source code
+│   └── ...        # Python modules and packages
 ├── notebooks/     # Jupyter Notebooks
-├── data/          # Raw data (not versioned!)
+│   └── ...        # Example and analysis notebooks
+├── data/          # Raw data (not versioned)
+│   └── ...        # Input and output data files
 ├── tests/         # Unit tests
+│   └── ...        # Test scripts
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
 ├── environment.yml (for conda)
-├── setup.py / pyproject.toml (if packaging)
+├── setup.py / pyproject.toml (for packaging)
+```
 
-## Dépendances
-* Ganessa
-  * en2emu.py
-* OWA:EPANET_2.2
+## Dependencies
 
-Ce code ne fonctionnera pas de manière autonome, et nécessite la possession des utilitaires précédemment cités.
+- Ganessa
+  - en2emu.py
+- OWA:EPANET_2.2
+
+**Note:** This code will not work standalone and requires the above-mentioned utilities.
