@@ -1,0 +1,14 @@
+# environment.yml
+# This file is used to create a conda environment for the marnaPY project.
+
+name: marnaPY-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=1.23
+  - pandas=1.5
+  - jupyter=1.0
+  - pip
+  - pip:
+    - epanettools=0.1.0  # pip-only packages here
